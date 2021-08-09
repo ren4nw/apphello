@@ -1,5 +1,6 @@
 import React from 'react';
 import {SafeAreaView, StatusBar, Text, View} from 'react-native';
+import codePush from 'react-native-code-push';
 
 const App = () => {
   return (
@@ -13,4 +14,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default codePush(App);
