@@ -22,7 +22,7 @@ const App = () => {
       <StatusBar barStyle="dark-content" />
       <View>
         <Text>Hello world</Text>
-        <Text>update codepush atualizado</Text>
+        <Text>update codepush atualizado text</Text>
 
         <TouchableOpacity onPress={handlePress} style={styles.button}>
           <Text>Install updates</Text>
